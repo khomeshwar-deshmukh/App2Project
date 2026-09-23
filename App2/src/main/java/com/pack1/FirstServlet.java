@@ -29,9 +29,6 @@ public class FirstServlet extends GenericServlet{
 	  
 	  int year = Integer.parseInt(user_dob.substring(6));
 	  
-	  
-	  
-	  
 	  pw.print("<center><h1>");
 	  //pw.print("UserName : "+user_name+"<br><br>"); 
 	  //pw.print("UserDOB : "+user_dob+"<br><br>");
