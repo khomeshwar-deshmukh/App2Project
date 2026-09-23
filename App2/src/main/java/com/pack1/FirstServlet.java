@@ -39,14 +39,13 @@ public class FirstServlet extends GenericServlet{
 	  if((2026-year)>=18)
 	  {
 		  pw.print("<center><h1>");
-		  pw.print(user_name+" you can Vote"+"<br><br>");
-		  pw.print("</center></h1>");
-		  
+		  pw.print(user_name+" you can Vote"+"<br><br><br>");
+		  pw.print("</center></h1>");  
 	  }
 	  else
 	  {
 		  pw.print("<center><h1>");
-		  pw.print(user_name+" you are NOT Eligible to vote"+"<br><br>");
+		  pw.print(user_name+" you are NOT Eligible to vote"+"<br><br><br>");
 		  pw.print("</center></h1>");
 		  
 	  }
